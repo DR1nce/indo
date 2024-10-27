@@ -74,9 +74,19 @@ const Main = () => {
           </div>
       </div>
 
-      <div className="fsbg min-h-screen bg-cover bg-center flex ">
+      <div className="fsbg min-h-screen bg-cover bg-center flex">
+  <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center mt-16 gap-10 sm:gap-16">
+    <span className="text-tb text-3xl sm:text-4xl lg:text-5xl font-semibold text-center sm:text-left">Explore Our Secrets</span>
 
-        </div>
+    <div className="max-w-[1400px] max-h-[260px] space-y-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <img src="/fourth-section-first-img.png" alt="Video Thumbnail" className="h-48 sm:h-60 lg:h-80 object-cover w-full rounded-md" />
+        <img src="/fourth-section-second-img.png" alt="Video Thumbnail" className="h-48 sm:h-60 lg:h-80 object-cover w-full rounded-md" />
+        <img src="/fourth-section-third-img.png" alt="Video Thumbnail" className="h-48 sm:h-60 lg:h-80 object-cover w-full rounded-md" />
+      </div>
+    </div>
+  </div>
+</div>
 
     </main>
   );
