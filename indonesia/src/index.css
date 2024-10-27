@@ -8,8 +8,17 @@
 
 
 @layer components {
-  .fsbg{
+  .ssbg{
+
     background: var(--Blue---Background, #010A20);
     background-image: url('/second-section-bg.png');
+    
+  }
+  .tsbg{
+    background: var(--Blue---Background, #010A20);
+    background-image: url('/third-section-bg.png');
+  }
+  .fsbg{
+    background-image: url('/fourth-section-bg.png');
   }
 }

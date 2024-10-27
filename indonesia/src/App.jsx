@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const Main = () => {
   return (
     <main className="flex-1">
-      <div className="fsbg min-h-screen bg-cover bg-center flex ">
+      <div className="ssbg min-h-screen bg-cover bg-center flex ">
      
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center gap-24 flex-col md:flex-row ">
 
@@ -39,12 +39,12 @@ const Main = () => {
       </div>
 
 
-      
-      <div className="fsbg min-h-screen bg-cover bg-center flex ">
-     
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center gap-24 flex-col md:flex-row ">
 
-             <img src="/second-section-img.png" alt="Video Thumbnail" className=" h-1/3" />
+      <div className="tsbg min-h-screen bg-cover bg-center flex ">
+     
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center gap-24 flex-col md:flex-row-reverse ">
+
+             <img src="/third-section-img.png" alt="Video Thumbnail" className=" h-1/3" />
 
             <div className="max-w-[400px] max-h-[300px] space-y-6 ">
 
@@ -52,7 +52,7 @@ const Main = () => {
              
              <div className="flex flex-col gap-5">
               <h1 className="text-white text-4xl sm:text-4xl md:text-4xl font-bold leading-tight">
-                The walkways of Indonesia spellbind
+              Perfect beaches exude relaxation and fun
               </h1>
               
             
@@ -73,6 +73,11 @@ const Main = () => {
             </div>
           </div>
       </div>
+
+      <div className="fsbg min-h-screen bg-cover bg-center flex ">
+
+        </div>
+
     </main>
   );
 };
