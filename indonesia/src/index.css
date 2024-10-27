@@ -8,16 +8,8 @@
 
 
 @layer components {
-    .bckgr{
-        background: linear-gradient(216deg, rgba(0, 0, 0, 0.31) 29.66%, rgba(0, 0, 0, 0.29) 84.2%)
-    }
-    .header-text{
-        font-feature-settings: 'liga' off, 'clig' off;
-        font-family: Roboto;
-    }
-   
-    .navli{
-        font-family: "DM Sans";
-        
-    }
+  .fsbg{
+    background: var(--Blue---Background, #010A20);
+    background-image: url('/second-section-bg.png');
+  }
 }
